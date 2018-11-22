@@ -1,4 +1,14 @@
-仓库新增了【备战春招/秋招系列】，希望可以为马上面临春招或者以后需要面试的小老哥助力！拟定一周更新2篇内容。
+我整理了一份面试相关资源（视频+PDF文档） 如果大家需要的话可以点击此链接[添加我的微信](#最后) （记得备注来自Github），成功通过好友请求之后回复“面试”免费领取！
+<div align="center">  
+
+<img src="http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-11-16/49833984.jpg" width=""/>
+</br>
+
+[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-577511615-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=f128b25264f43170c2721e0789b24b180fc482113b6f256928b6198ae07fe5d4)
+
+</div>
+
+仓库新增了【备战春招/秋招系列】，希望可以为马上面临春招或者以后需要面试的小老哥助力！拟定一周更新2篇内容。下面是腾讯云双11做的活动，还剩9天，秒杀的服务器很便宜哦！
 > 腾讯云热门云产品1折起，送13000元续费/升级大礼包：https://cloud.tencent.com/redirect.php?redirect=1034&cps_key=2b96dd3b35e69197e2f3dfb779a6139b&from=console
 >
 > 腾讯云新用户大额代金券：https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=2b96dd3b35e69197e2f3dfb779a6139b&from=console
@@ -47,8 +57,8 @@
 
 
 -  ### 算法
-   - [算法学习与面试](https://github.com/Snailclimb/Java_Guide/blob/master/数据结构与算法/算法.md)
-   
+
+   - [算法学习与面试](https://github.com/Snailclimb/Java_Guide/blob/master/数据结构与算法/算法.md)  
    - [常见安全算法（MD5、SHA1、Base64等等）总结](https://github.com/Snailclimb/Java_Guide/blob/master/数据结构与算法/常见安全算法（MD5、SHA1、Base64等等）总结.md)
    - [算法总结——几道常见的子符串算法题 ](https://github.com/Snailclimb/Java_Guide/blob/master/数据结构与算法/搞定BAT面试——几道常见的子符串算法题.md)
    - [算法总结——几道常见的链表算法题 ](https://github.com/Snailclimb/Java_Guide/blob/master/数据结构与算法/Leetcode-LinkList1.md)   
@@ -98,7 +108,8 @@
     - [【备战春招/秋招系列2】初出茅庐的程序员该如何准备面试？](https://github.com/Snailclimb/Java-Guide/blob/master/面试必备/interviewPrepare.md)
     - [【备战春招/秋招系列3】Java程序员必备书单](https://github.com/Snailclimb/Java-Guide/blob/master/面试必备/books.md)   
     - [ 【备战春招/秋招系列4】美团面经总结基础篇 （附详解答案）](https://github.com/Snailclimb/Java-Guide/blob/master/面试必备/美团-基础篇.md)
-    - [ 【备战春招/秋招系列5】美团面经总结进阶篇 （附详解答案）](https://github.com/Snailclimb/Java-Guide/blob/master/面试必备/美团-进阶篇.md)  
+    - [ 【备战春招/秋招系列5】美团面经总结进阶篇 （附详解答案）](https://github.com/Snailclimb/Java-Guide/blob/master/面试必备/美团-进阶篇.md)
+    - [ 【备战春招/秋招系列5】美团面经总结终结篇篇 （附详解答案）](https://github.com/Snailclimb/Java-Guide/blob/master/面试必备/美团-终结篇.md)
 
 - ### 最最最常见的Java面试题总结
    这里会分享一些出现频率极其极其高的面试题，初定周更一篇，什么时候更完什么时候停止。
@@ -124,24 +135,30 @@
 > # :envelope: 该开源文档一些说明
 
 ## 介绍
-该文档主要是笔主在学习Java的过程中的一些学习笔记，但是为了能够涉及到大部分后端学习所需的技术知识点我也会偶尔引用一些别人的优秀文章的链接。
+
+该文档主要是笔主在学习 Java 的过程中的一些学习笔记，但是为了能够涉及到大部分后端学习所需的技术知识点我也会偶尔引用一些别人的优秀文章的链接。文档大部分内容都是笔者参考书籍以及自己的原创。少部分面试题回答参考了其他人已有答案，上面都已注明。
+
 该文档涉及的主要内容包括： Java、 数据结构与算法、计算机网络与数据通信、 操作系统、主流框架、数据存储、架构、面试必备知识点等等。相信不论你是前端还是后端都能在这份文档中收获到东西。
+
 ## 关于转载
 
 **如果需要引用到本仓库的一些东西，必须注明转载地址！！！毕竟大多都是手敲的，或者引用的是我的原创文章，希望大家尊重一下作者的劳动**:smiley::smiley::smiley:！
 
 ## 如何对该开源文档进行贡献
 
-1. 笔记内容大多是手敲，所以难免会有笔误。
-2. 你对其他知识点的补充。
+1. 笔记内容大多是手敲，所以难免会有笔误，你可以帮我找错别字。
+2. 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。
+3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点的修改/补充。
 
 ## 为什么要做这个开源文档？
 
-在我们学习Java的时候，很多人会面临我不知道继续学什么或者面试会问什么的尴尬情况（我本人之前就很迷茫:smile:）。所以，我决定通过这个开源平台来帮助一些有需要的人，通过下面的内容，你会掌握系统的Java学习以及面试的相关知识。本来是想通过Gitbook的形式来制作的，后来想了想觉得可能有点大题小做 :grin: 。另外，我自己一个人的力量毕竟有限，希望各位有想法的朋友可以提issue。
+在我们学习Java的时候，很多人会面临我不知道继续学什么或者面试会问什么的尴尬情况（我本人之前就很迷茫:smile:）。所以，我决定通过这个开源平台来帮助一些有需要的人，通过下面的内容，你会掌握系统的Java学习以及面试的相关知识。本来是想通过Gitbook的形式来制作的，后来想了想觉得可能有点大题小做 :grin: 。另外，我自己一个人的力量毕竟有限，希望各位有想法的朋友可以提issue。开源的最大目的是，让更多人参与进来，这样文档的正确性才能得以保障！
 
 ## 最后
 
-本人会利用业余时间一直更新下去，目前还有很多地方不完善，一些知识点我会原创总结，还有一些知识点如果说网上有比较好的文章了，我会把这些文章加入进去。您也可以关注我的微信公众号：“Java面试通关手册”，我会在这里分享一些自己的原创文章。 另外该文档格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)，表情素材来自：[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
+本人会利用业余时间一直更新下去，目前还有很多地方不完善，一些知识点我会原创总结，还有一些知识点如果说网上有比较好的文章了，我会把这些文章加入进去。您也可以关注我的微信公众号：“Java面试通关手册”，我会在这里分享一些自己的原创文章。 另外该文档格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)，表情素材来自：[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。如果大家需要与我交流，可以扫描下方二维码添加我的微信：
+
+![我的微信](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-11-17/16009393.jpg)
 
 ## 推荐一下阿里云服务
 
@@ -154,6 +171,7 @@
 5. [阿里云建站服务](https://promotion.aliyun.com/ntms/act/jianzhanquan.html?userCode=hf47liqn)（企业官网、电商网站，多种可供选择模板，代金券免费领取）
 
 
-**你若盛开，清风自来。 欢迎关注我的微信公众号：“Java面试通关手册”，一个有温度的微信公众号。公众号有大量资料，回复关键字“1”你可能看到想要的东西哦！：**
+**你若盛开，清风自来。 欢迎关注我的微信公众号：“Java面试通关手册”，一个有温度的微信公众号。公众号多篇优质文章被各大社区转载，公众号后台回复关键字“1”你可能看到想要的东西哦！：**
 
-![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-8-17/29079091.jpg)
+
+![我的公众号](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-11-18/49351424.jpg)
