@@ -6,7 +6,7 @@
 <img src="http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-11-16/49833984.jpg" width=""/>
 </br>
 
-[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-577511615-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=f128b25264f43170c2721e0789b24b180fc482113b6f256928b6198ae07fe5d4)
+[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-984466017-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=10aee68bd241e739e59a8dfb0d4b33690bd3a4b5af0d09142cbdae2cb8c3966a)
 </br>
 微信交流群添加 [我的微信](#我的微信) 后回复关键字“加群”即可入群。
 
@@ -37,7 +37,6 @@
   - [MySQL](#mysql)
   - [Redis](#redis)
 - [:punch: 架构](#punch-架构)
-  - [分布式相关](#分布式相关)
 - [:musical_note: 面试必备](#musical_note-面试必备)
   - [备战春招/秋招系列](#备战春招秋招系列)
   - [最最最常见的Java面试题总结](#最最最常见的java面试题总结)
@@ -156,9 +155,9 @@
 
 ## :punch: 架构
 
-### 分布式相关
-
 * [一文读懂分布式应该学什么](https://github.com/Snailclimb/Java_Guide/blob/master/架构/分布式.md)
+* [8 张图读懂大型网站技术架构](https://github.com/Snailclimb/JavaGuide/blob/master/架构/8%20张图读懂大型网站技术架构.md)
+* [【面试精选】关于大型网站系统架构你不得不懂的10个问题](https://github.com/Snailclimb/JavaGuide/blob/master/架构/【面试精选】关于大型网站系统架构你不得不懂的10个问题.md)
 
 ## :musical_note: 面试必备
 
