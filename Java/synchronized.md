@@ -1,6 +1,4 @@
-以下内容摘自我的 Gitchat ：[Java 程序员必备：并发知识系统总结](https://gitbook.cn/gitchat/activity/5bc2b6af56f0425673d299bb)，欢迎订阅！
 
-Github 地址：[https://github.com/Snailclimb/JavaGuide/edit/master/Java相关/synchronized.md](https://github.com/Snailclimb/JavaGuide/edit/master/Java相关/synchronized.md)
 
 ![Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化以及 和ReenTrantLock 的对比](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/Java%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%85%E5%A4%87%EF%BC%9A%E5%B9%B6%E5%8F%91%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BB%93/%E4%BA%8C%20%20Synchronized%20%E5%85%B3%E9%94%AE%E5%AD%97%E4%BD%BF%E7%94%A8%E3%80%81%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E3%80%81JDK1.6%20%E4%B9%8B%E5%90%8E%E7%9A%84%E5%BA%95%E5%B1%82%E4%BC%98%E5%8C%96%E4%BB%A5%E5%8F%8A%20%E5%92%8CReenTrantLock%20%E7%9A%84%E5%AF%B9%E6%AF%94.png)
 
@@ -12,7 +10,7 @@ Github 地址：[https://github.com/Snailclimb/JavaGuide/edit/master/Java相关/
 
 下面我已一个常见的面试题为例讲解一下 synchronized 关键字的具体使用。
 
-面试中面试官经常会说：“单例模式了解吗？来给我手写一下！给我解释一下双重检验锁方式实现单利模式的原理呗！”
+面试中面试官经常会说：“单例模式了解吗？来给我手写一下！给我解释一下双重检验锁方式实现单例模式的原理呗！”
 
 
 
@@ -168,4 +166,4 @@ synchronized 是依赖于 JVM 实现的，前面我们也讲到了 虚拟机团�
 
 **④ 性能已不是选择标准**
 
-在JDK1.6之前，synchronized 的性能是比 ReenTrantLock 差很多。具体表示为：synchronized 关键字吞吐量岁线程数的增加，下降得非常严重。而ReenTrantLock 基本保持一个比较稳定的水平。我觉得这也侧面反映了， synchronized 关键字还有非常大的优化余地。后续的技术发展也证明了这一点，我们上面也讲了在 JDK1.6 之后 JVM 团队对 synchronized 关键字做了很多优化。**JDK1.6 之后，synchronized 和 ReenTrantLock 的性能基本是持平了。所以网上那些说因为性能才选择 ReenTrantLock 的文章都是错的！JDK1.6之后，性能已经不是选择synchronized和ReenTrantLock的影响因素了！而且虚拟机在未来的性能改进中会更偏向于原生的synchronized，所以还是提倡在synchronized能满足你的需求的情况下，优先考虑使用synchronized关键字来进行同步！优化后的synchronized和ReenTrantLock一样，在很多地方都是用到了CAS操作**。
+在JDK1.6之前，synchronized 的性能是比 ReenTrantLock 差很多。具体表示为：synchronized 关键字吞吐量随线程数的增加，下降得非常严重。而ReenTrantLock 基本保持一个比较稳定的水平。我觉得这也侧面反映了， synchronized 关键字还有非常大的优化余地。后续的技术发展也证明了这一点，我们上面也讲了在 JDK1.6 之后 JVM 团队对 synchronized 关键字做了很多优化。**JDK1.6 之后，synchronized 和 ReenTrantLock 的性能基本是持平了。所以网上那些说因为性能才选择 ReenTrantLock 的文章都是错的！JDK1.6之后，性能已经不是选择synchronized和ReenTrantLock的影响因素了！而且虚拟机在未来的性能改进中会更偏向于原生的synchronized，所以还是提倡在synchronized能满足你的需求的情况下，优先考虑使用synchronized关键字来进行同步！优化后的synchronized和ReenTrantLock一样，在很多地方都是用到了CAS操作**。
